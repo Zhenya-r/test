@@ -722,7 +722,8 @@ body {
   padding: 3.125rem 0;
 }
 .categoreis-page__container {
-  display: grid;
+  display: flex;
+  flex-direction: column;
 }
 .categoreis-page__title:not(:last-child) {
   margin-bottom: 3.125rem;
@@ -731,7 +732,7 @@ body {
   margin-bottom: max(30px, 2.7502750275%);
 }
 .categoreis-page__button {
-  justify-self: center;
+  align-self: center;
 }
 
 .tabs-categoreis input {
